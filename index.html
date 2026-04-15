@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASSY KENDARI - Coffee & Experience</title>
+    <meta name="description"
+        content="SASSY KENDARI: Pengalaman kopi modern dengan desain Apple-style yang minimalis dan premium di Kendari.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Sassy<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content" data-aos="fade-up">
+            <h1>SASSY<br>KENDARI</h1>
+            <p class="hero-address">Jl. H. Supu Yusuf, Bende, Kec. Kadia, Kota Kendari.<br>Tempat di mana rasa bertemu
+                estetika.</p>
+            <div class="hero-btns">
+                <a href="https://maps.app.goo.gl/trtPip3aXRC2vJEj6" target="_blank" class="btn btn-primary">Petunjuk
+                    Arah</a>
+                <a href="#menu" class="btn btn-outline">Eksplorasi Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Bar -->
+    <section class="info-bar">
+        <div class="container">
+            <div class="info-item" data-aos="fade-up">
+                <i class="fas fa-clock"></i>
+                <div class="info-text">
+                    <h4>Operasional</h4>
+                    <p>08.00 – 23.00 (Setiap Hari)</p>
+                </div>
+            </div>
+            <div class="info-item" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-mug-hot"></i>
+                <div class="info-text">
+                    <h4>Spesialisasi</h4>
+                    <p>Premium Coffee & Desserts</p>
+                </div>
+            </div>
+            <div class="info-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-wifi"></i>
+                <div class="info-text">
+                    <h4>Konektivitas</h4>
+                    <p>WiFi Kencang & Suasana Tenang</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="about">
+        <div class="container">
+            <div class="grid">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="GALERY%20SASSY/1.jpg" alt="Sassy Interior">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h2 class="section-title">Didesain untuk <span>Kenyamanan.</span></h2>
+                    <p>SASSY KENDARI memberikan ruang yang tenang bagi mahasiswa, pekerja, hingga mereka yang ingin
+                        sekadar menikmati waktu sendiri. Dengan estetika modern, kami menghadirkan suasana yang santai
+                        namun tetap trendi.</p>
+                    <a href="#layanan" class="btn btn-outline" style="padding-left: 0;">Pelajari Selengkapnya →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="layanan" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Layanan <span>Terpadu.</span></h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="icon-box"><i class="fas fa-utensils"></i></div>
+                    <h3>Opsi Layanan</h3>
+                    <ul>
+                        <li>Makan di tempat</li>
+                        <li>Bawa pulang</li>
+                        <li>Pesan antar cepat</li>
+                        <li>Tempat duduk terbuka</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box"><i class="fas fa-wallet"></i></div>
+                    <h3>Pembayaran</h3>
+                    <ul>
+                        <li>Mobile NFC & QRIS</li>
+                        <li>Kartu Debit / Kredit</li>
+                        <li>Tunai</li>
+                        <li>Reservasi Meja Online</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Menu <span>Unggulan.</span></h2>
+            </div>
+
+            <div class="menu-tabs" data-aos="fade-up">
+                <button class="tab-btn active" data-target="all">Semua</button>
+                <button class="tab-btn" data-target="coffee">Kopi</button>
+                <button class="tab-btn" data-target="non-coffee">Non-Kopi</button>
+                <button class="tab-btn" data-target="dessert">Camilan</button>
+            </div>
+
+            <div class="menu-grid" id="menu-container">
+                <div class="menu-item-card coffee" data-aos="fade-up">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-1.jpg" alt="Menu 1"></div>
+                </div>
+                <div class="menu-item-card coffee" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-2.jpg" alt="Menu 2"></div>
+                </div>
+                <div class="menu-item-card coffee" data-aos="fade-up" data-aos-delay="200">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-3.jpg" alt="Menu 3"></div>
+                </div>
+                <div class="menu-item-card non-coffee" data-aos="fade-up">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-4.jpg" alt="Menu 4"></div>
+                </div>
+                <div class="menu-item-card non-coffee" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-5.jpg" alt="Menu 5"></div>
+                </div>
+                <div class="menu-item-card dessert" data-aos="fade-up">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-6.jpg" alt="Menu 6"></div>
+                </div>
+                <div class="menu-item-card dessert" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-7.jpg" alt="Menu 7"></div>
+                </div>
+                <div class="menu-item-card coffee" data-aos="fade-up">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-8.jpg" alt="Menu 8"></div>
+                </div>
+                <div class="menu-item-card non-coffee" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-9.jpg" alt="Menu 9"></div>
+                </div>
+                <div class="menu-item-card dessert" data-aos="fade-up">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-10.jpg" alt="Menu 10"></div>
+                </div>
+                <div class="menu-item-card dessert" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-img"><img src="MENU%20SASSY/MENU%20SASSY-11.jpg" alt="Menu 11"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section id="galeri" class="galeri">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Eksplorasi <span>Galeri.</span></h2>
+            </div>
+            <div class="galeri-grid">
+                <div class="galeri-item" data-aos="fade-up"><img src="GALERY%20SASSY/1.jpg" alt="Interior 1"></div>
+                <div class="galeri-item" data-aos="fade-up" data-aos-delay="100"><img src="GALERY%20SASSY/2.jpg"
+                        alt="Interior 2"></div>
+                <div class="galeri-item" data-aos="fade-up" data-aos-delay="200"><img src="GALERY%20SASSY/3.jpg"
+                        alt="Interior 3"></div>
+                <div class="galeri-item" data-aos="fade-up" data-aos-delay="300"><img src="GALERY%20SASSY/4.jpg"
+                        alt="Interior 4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="lokasi" class="map-section" data-aos="fade-up">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lokasi <span>Kami.</span></h2>
+                <p>Kunjungi kami di Jl. H. Supu Yusuf, Bende, Kota Kendari</p>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://maps.google.com/maps?q=SASSY%20KENDARI%20Jl.%20H.%20Supu%20Yusuf%20Bende%20Kadia%20Kendari&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unified Footer Section -->
+    <footer id="kontak">
+        <div class="container">
+            <div class="footer-main-grid">
+                <!-- Column 1: Brand & Desc -->
+                <div class="footer-column brand-col" data-aos="fade-up">
+                    <a href="#" class="logo">Sassy<span>.</span></a>
+                    <p class="footer-desc">Destinasi kopi paling trendi di Kota Kendari. Tempat di mana rasa bertemu
+                        dengan estetika dan kenyamanan.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Operation & Parking -->
+                <div class="footer-column info-col" data-aos="fade-up" data-aos-delay="100">
+                    <div class="footer-info-group">
+                        <h4><i class="fas fa-clock"></i> Jam Operasional</h4>
+                        <p>Senin – Minggu<br>08.00 – 23.00</p>
+                    </div>
+                    <div class="footer-info-group">
+                        <h4><i class="fas fa-parking"></i> Informasi Parkir</h4>
+                        <p class="small-text">Area parkir terkadang padat. Disarankan menggunakan transportasi online
+                            untuk kenyamanan maksimal.</p>
+                    </div>
+                </div>
+
+                <!-- Column 3: Contact -->
+                <div class="footer-column contact-col" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Hubungi Kami</h4>
+                    <p class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Jl. H. Supu Yusuf, Bende, Kec. Kadia, Kota Kendari.</span>
+                    </p>
+                    <p class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span><a href="https://wa.me/6285998005604"
+                                style="text-decoration: none; color: inherit;">085998005604</a></span>
+                    </p>
+                    <p class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@sassykendari.com</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
